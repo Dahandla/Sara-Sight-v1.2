@@ -1,0 +1,53 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.dylib
+*.exe
+
+# PyInstaller build folders
+build/
+dist/
+_internal/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.pkl
+
+# Visual artifacts
+*.png
+*.jpg
+*.jpeg
+*.ico
+*.gif
+*.wav
+
+# Project documentation and output files
+*.rtf
+*.txt
+*.pdf
+*.html
+
+# Python environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+env/
+
+# macOS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# PyCharm and VS Code
+.idea/
+.vscode/

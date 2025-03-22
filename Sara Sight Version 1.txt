@@ -1,0 +1,143 @@
+
+Sara Sight Version 1.1 Enhanced Help Guide
+
+
+Overview:
+
+Sara Sight is a sophisticated, AI-driven application leveraging Ollama and various vision models, including Lava, for computer vision and detailed image analysis. The intuitive interface provides image selection, prompt-based analysis, voice commands, and custom model integration for advanced and flexible usage.
+
+Key Features:
+
+Image Selection:
+
+- Browse:
+  Easily select and load images from your local computer for detailed analysis.
+
+- Start Webcam:
+  Capture and analyze images in real time through your connected webcam.
+
+- Get Images from Web:
+  Download and directly analyze images sourced from online URLs.
+
+Vision Model Selection:
+
+- Dropdown Model Selection:
+  Select from multiple pre-loaded vision models quickly and effortlessly through a convenient dropdown list.
+
+- Custom Ollama Vision Model:
+  Enter your custom vision model name in the input field to utilize specific Ollama models beyond those provided by default, enhancing the flexibility of the application's image analysis capabilities.
+
+Image Analysis:
+
+- Enter a Prompt:
+  Input descriptive prompts (e.g., "Describe objects in this image") to guide the AI model's analysis.
+
+- Tell Me Button:
+  Click to submit your prompt and display detailed analysis results in the application interface.
+
+Audio and Recording Functions:
+
+- Record Mic:
+  Record voice commands or notes directly within the application interface.
+
+- Play Response:
+  Provides audible playback of the text response generated from image analysis, ideal for visually impaired users or hands-free interaction.
+
+- Save Log to Text File:
+  Save your analysis history, prompts, and responses to a text file for convenient future reference or reporting.
+
+- Clear Fields:
+  Quickly reset all input and output fields for a clean workspace.
+
+Additional Controls:
+
+- Select Gender:
+  Customize the gender of voice responses for a personalized user experience.
+
+- Advanced Logging:
+  Maintains detailed session logs including timestamps, image sources, prompts, and models used for precise record-keeping.
+
+- Persistent Settings:
+  Retain your last-used settings, model preferences, and interface layout upon restarting the application.
+
+- Multi-threading Support:
+  Enhances performance by running complex analyses in the background, keeping the interface responsive.
+
+Context-Aware Image Analysis:
+
+- Use Context Toggle:
+  When enabled, Sara Sight remembers previous prompts and responses related to the current image, enabling follow-up questions and deeper analysis over multiple steps.
+
+- Conversation Memory:
+  Keeps a configurable history of up to 10 prompt-response pairs per image to allow natural dialog flow and contextual references.
+
+- Context Switching:
+  When a new image is loaded, previous context is cleared, ensuring relevant and focused analysis.
+
+Session Saving & Restoration:
+
+- Save Session:
+  Saves your current work including image, model, logs, context, and preferences into a `.pkl` file.
+
+- Load Session:
+  Restore your previous session, including the same image, conversation history, and model selection.
+
+Logging and Export Options:
+
+- Multi-format Logging:
+  Export your prompt-response history as `.txt`, `.html`, or `.pdf`, including thumbnails of the analyzed images.
+
+- PDF Layout Options:
+  Generates a clean PDF log using ReportLab with wrapped text, thumbnails, and consistent formatting.
+
+Model Flexibility & Customization:
+
+- Built-in Models:
+  Supports popular vision-enabled models such as LLaVA, Moondream, Gemma 3.4b, and more.
+
+- Add Custom Model:
+  Input any compatible Ollama vision model (e.g., `my-custom-model:latest`) directly into the app to tailor analysis needs.
+
+User Personalization:
+
+- Theme Switching:
+  Toggle between built-in style themes via the Style menu for light or dark visual preferences.
+
+- Voice Gender Control:
+  Select between male and female voice feedback options for audio playback.
+
+Robust Audio Capabilities:
+
+- Audio Playback Controls:
+  Includes dedicated Playand Stop buttons to replay responses generated via text-to-speech.
+
+- Automatic Voice Narration:
+  Enable auto-play of descriptions immediately after analysis with the Auto Play checkbox.
+
+How to Use:
+
+Setting Up:
+- Install the Sara Sight application and verify your internet connection for web-based features.
+- Update your drivers regularly, especially for audio and webcam functionalities.
+
+Selecting and Analyzing Images:
+- Select your preferred vision model from the dropdown or enter a custom Ollama vision model in the provided input field.
+- Choose an image using 'Browse', capture live images via 'Start Webcam', or retrieve images from the web using 'Get Image from Web'.
+- Input your prompt in the 'Enter a Prompt' field, then click 'Tell Me' to start the analysis.
+- Review analysis results directly or use 'Play Response' to hear them audibly.
+
+Recording and Logs:
+- Use the 'Record Mic' function for audio notes or commands.
+- Click 'Save Log to Text File' to document your session comprehensively.
+
+Troubleshooting:
+- Check your internet connection if web-based image retrieval fails.
+- Ensure audio devices and webcam drivers are updated and functioning.
+- Verify correct spelling and availability when adding custom vision model names.
+
+Support:
+Created by: Andre' L. Dickinson, 3, 21, 2025, ver_1.2  
+Copyright © C:\code>_Studio. All Rights Reserved.  
+Proprietary and confidential.  
+Written by Andre' L. Dickinson  
+andre@ccodestudio.com
