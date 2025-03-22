@@ -3,7 +3,7 @@
 
 Welcome to the official repository for **Sara Sight v1.2** — a locally running, voice-enabled computer vision assistant powered by open AI models and packaged for desktop with PyInstaller.
 
-> 🔐 **Note:** This repository currently hosts documentation and compiled releases only. Source code is private for now but may be released in the future.
+> 🔐 **Note:** This repository currently hosts documentation and compiled releases only. The source code is private for now but may be released in the future.
 
 ---
 
@@ -17,7 +17,7 @@ Whether you're an educator, creative, researcher, or just curious, Sara Sight is
 
 ## 🔍 Key Features
 
-- **Contextual Image Understanding** — Ask follow-up questions and explore images in depth.
+- **Contextual Image Understanding** — Ask follow-up questions and explore images deeply.
 - **Voice Output** — Audio playback with selectable gender voice options.
 - **Session Persistence** — Save and load your session history and preferences.
 - **Multi-Model Support** — Choose or add Ollama-compatible vision models.
@@ -28,10 +28,12 @@ Whether you're an educator, creative, researcher, or just curious, Sara Sight is
 ---
 
 ## 🚀 Getting Started
+Usage video here
+https://www.youtube.com/watch?v=IT-TYQxaX_U
 
 1. **Download the latest release** from the [Releases tab](../../releases).
 2. Extract the `.zip` and run `SaraSight.exe`.
-3. No installation or Python setup required — it's fully self-contained.
+3. No installation or Python setup is required — it's fully self-contained.
 
 ---
 
